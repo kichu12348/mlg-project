@@ -1,0 +1,21 @@
+ithanu a = 10;
+ithanu b = a + 5;
+para(b); 
+
+aneneki(b > 10){
+    para("b is greater than 10");
+} allenki(b == 10){
+    para("b is equal to 10");
+} avasanam{
+    para("b is less than 10");
+}
+
+cheyyu add(x, y) {
+    thirichu x
+}
+
+ithanu result = add(3, 7);
+para(result);
+
+ithanu name = "Alice";
+para(name+" is a goo");

@@ -1,0 +1,18 @@
+{
+  "name": "mgl-interpreter",
+  "version": "1.0.0",
+  "description": "Mgl interpreter",
+  "main": "core/index.js",
+  "author": "kichu",
+  "bin": {
+    "mgl": "./core/run.js"
+  },
+  "scripts": {
+    "start": "node core/run.js"
+  },
+  "pkg":{
+    "assets": [
+      "core/**/*"
+    ]
+  }
+}
